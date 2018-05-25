@@ -3,21 +3,26 @@
 h1 {
   width:100%;
   font-size:6vw;
-  margin:0;
+  top-margin:20px;
+  transform:rotate(180deg);
+  color:#ff5656;
+  font-weight:100;
 }
 
 h2 {
-  width:100%;
+  width:25%;
   font-size:3vw;
 }
 
 p {
-  width:50%;
+  width:5%;
+  margin:15px;
   font-size:16px;
+  color:#ff5656;
+  font-weight:bold;
 }
 
 p#name-1 {
-  
 }
 
 p#name-2 {
@@ -81,8 +86,8 @@ body {
 .poster-illustration{
   position:absolute;
   z-index:-1;
-  top:50%;
-  left:50%;
+  top:40%;
+  left:30%;
   transform:translateX(-50%) translateY(-50%)
     
 }
